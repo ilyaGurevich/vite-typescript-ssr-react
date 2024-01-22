@@ -15,6 +15,7 @@ const FullApp = () => (
 );
 
 if (import.meta.hot || !container?.innerText) {
+  console.log('here?')
   const root = createRoot(container!);
   root.render(<FullApp />);
 } else {

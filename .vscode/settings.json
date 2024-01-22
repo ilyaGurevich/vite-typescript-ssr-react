@@ -1,0 +1,33 @@
+{
+    "eslint.autoFixOnSave": true,
+    "editor.formatOnSave": false,
+    "editor.tabSize": 2,
+    "search.exclude": {
+      "**/build": true,
+      "**/cjs": true,
+      "**/lib": true,
+      "**/node_modules": true,
+      "schema.json": true,
+      "**/*.woff*": true,
+      "package-lock.json": true,
+      "prototype": true,
+      "pnpm-lock.yaml": true,
+      "pnpm-workspace.yaml": true,
+    },
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+    },
+    "eslint.options": {
+      "extensions": [".js", ".jsx", ".ts", ".tsx"]
+    },
+    "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "files.associations": {
+      /**
+       * The TSConfig base files contain comments, so tell VSCode to treat them as `.jsonc`
+       * @see https://stackoverflow.com/a/76490436
+      */
+      "**/projects/tsconfig/*.json": "jsonc"
+    }
+  }
+  

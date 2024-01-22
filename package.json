@@ -7,7 +7,7 @@
     "type": "git",
     "url": "https://github.com/jonluca/vite-typescript-ssr-react"
   },
-  "author": "JonLuca DeCaro",
+  "author": "Ilya Gurevich",
   "license": "MIT",
   "scripts": {
     "dev:server": "tsx server.ts",
@@ -68,13 +68,5 @@
     "vite": "4.5.0",
     "vitest": "^0.34.6"
   },
-  "packageManager": "yarn@4.0.1",
-  "prettier": {
-    "printWidth": 120,
-    "semi": true,
-    "singleQuote": false,
-    "trailingComma": "all",
-    "bracketSpacing": true,
-    "arrowParens": "avoid"
-  }
+  "packageManager": "yarn@4.0.1"
 }
